@@ -1,6 +1,6 @@
 from django.contrib import admin
-#from .models import Estudiante, programar, calificar
+from .models import calificacion
 
 
 # Register your models here.
-#admin.site.register([Estudiante, programar, calificar])
+admin.site.register([calificacion])
